@@ -1,10 +1,4 @@
 # ReadRobo
-ReadRobo - Intelligent Document OCR and Classification System
-Here’s a **README.md** file for your project, summarizing its functionality, setup instructions, and key features in a clean and professional format:
-
----
-
-# 🧠 Smart Document Q\&A Chatbot
 
 This repository contains a scalable, intelligent OCR application that processes and classifies over 100 types of documents—including complex handwritten forms such as **Birth Certificates**, **Death Certificates**, and **Resumes**. The app enables users to extract, embed, and interact with document content via a chatbot-style interface using cutting-edge models from Google and Groq.
 
@@ -30,19 +24,6 @@ This repository contains a scalable, intelligent OCR application that processes 
 | LLM for Classification/Q\&A | LLaMA3 (via Groq API)       |
 | UI Framework                | Streamlit                   |
 | PDF/Image Processing        | pdf2image, PIL              |
-
----
-
-## 🗂 Folder Structure
-
-```
-├── uploaded_files/           # User uploaded docs
-├── Indexed_Documents/        # Final output & embeddings
-├── .env                      # API keys for Gemini, Groq
-├── main.py                   # Main app script
-├── requirements.txt          # All dependencies
-└── README.md
-```
 
 ---
 
